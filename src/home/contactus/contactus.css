@@ -1,0 +1,13 @@
+.contact_form{
+    width: 30%;
+    margin-left: 100px;
+}
+.find{
+    width: 50%;
+    height: 400px;
+    background-image: url("https://mastermechanic.ca/content/uploads/2023/05/location-generic-1.png");
+    background-repeat: no-repeat;
+    margin-left: 130px;
+    margin-top: 40px;
+    text-align: start;
+}

@@ -1,0 +1,12 @@
+.popular_services{
+    display: flex;
+    
+}
+.service_card{
+    height: 160px;
+    width: 18rem;
+}
+.home_headings{
+    text-align: start;
+    color:darkmagenta;
+}
