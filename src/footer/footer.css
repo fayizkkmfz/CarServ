@@ -29,23 +29,29 @@ footer p{
     display: flex;
     align-items: center;
     margin: auto;
+    justify-content: center;
 }
 .social-media-icon{
     width: 50px;
     height: 50px;
     margin: 10px;
+    
+
 }
 .connect-me{
     margin: auto;
 }
 .connect-me .icon{
+    
     width: 30px;
     height: 30px;
-
+    
 }
 .icon-div{
     display: flex;
     margin: 15px;
+    justify-content: center;
+
 }
 .icon-div p{
     margin: 0;
@@ -64,4 +70,10 @@ footer p{
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
+}
+
+@media screen and (max-width:767px){
+    footer{
+        display: block;
+    }
 }

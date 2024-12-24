@@ -1,19 +1,18 @@
 .contact_form{
-    width: 30%;
-    margin-left: 100px;
-}
-.find{
+    margin: auto;
     width: 50%;
-    height: 400px;
-    background-image: url("https://mastermechanic.ca/content/uploads/2023/05/location-generic-1.png");
-    background-repeat: no-repeat;
-    margin-left: 130px;
-    margin-top: 40px;
-    text-align: start;
+    font-weight: 800;
+    color: white;
 }
 .contact-page{
-    display: flex;
+    color: white;
     margin-bottom: 30px;
+    margin: auto;
+    background-image: url("https://mastermechanic.ca/content/uploads/2023/05/location-generic-1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-blend-mode: overlay;
 }
 .submit-btn{
     margin: 20px;
@@ -21,12 +20,23 @@
     font-weight: 700;
 }
 .form-label{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 800;
 }
 .form-control{
     border: 2px solid ;
 }
 .form-select{
     border: 1px solid red;
+}
+.contact-page h2{
+    color:black;
+    font-size: 55px;
+    font-weight: 800;
+    padding-top: 20px;
+}
+.form-text{
+    color: rgb(57, 175, 96);
+    font-weight: 400;
+    font-size: 15px;
 }

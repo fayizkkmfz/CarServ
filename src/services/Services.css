@@ -1,5 +1,6 @@
 .popular_services{
     display: flex;
+    margin: 75px 20px;
     
 }
 .home_headings{
@@ -17,4 +18,14 @@
     margin: 30px;
     background-color: black;
     box-shadow: 10px 10px;
+}
+@media screen and (max-width:767px){
+    .popular_services{
+        display: block;
+        
+    }
+    .services-card{
+        margin-top: 55px;
+    }
+    
 }

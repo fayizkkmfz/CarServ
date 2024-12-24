@@ -16,23 +16,7 @@ import android from './android.svg'
 function Foot() {
   return (
     <footer>
-        <div>
-            <div className="footer-logo">
-                <h2>CarServe</h2>
-                <img src={icon} alt="" />
-            </div>
-            <p>Complete Repiring Online Solution <br /> For Assist All Models Cars</p>
-            <p>Kerala , India</p>
-        </div>
-
-        <div className='footer-social-media'>
-          
-          <img src={instagram} alt="" className="social-media-icon" />
-          <img src={facebook} alt="" className="social-media-icon" />
-          <img src={twitter} alt="" className="social-media-icon" />
-          <img src={telegram} alt="" className="social-media-icon" />
-
-        </div>
+       
 
         <div className='connect-me'>
           <div className="icon-div">
@@ -50,7 +34,30 @@ function Foot() {
 
         </div>
 
+        <div>
+            <div className="footer-logo">
+                <h2>CarServe</h2>
+                <img src={icon} alt="" />
+            </div>
+            <p>Complete Repiring Online Solution <br /> For Assist All Models Cars</p>
+            <p>Kerala , India</p>
+        </div>
+
+       
+
+        
+
         <div className='mobile-app'>
+
+        <div className='footer-social-media'>
+          
+          <img src={instagram} alt="" className="social-media-icon" />
+          <img src={facebook} alt="" className="social-media-icon" />
+          <img src={twitter} alt="" className="social-media-icon" />
+          <img src={telegram} alt="" className="social-media-icon" />
+
+        </div>
+
           <div className='app-div'>
             <span>Apple Store</span>
           <img src={apple} alt="" className="mobile-icon" />

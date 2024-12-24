@@ -7,7 +7,7 @@ function ContactUs() {
     <>
       
  <div className='contact-page'>
-
+ <h2>ContactUs</h2>
  <div className='contact_form'>
         <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -17,17 +17,17 @@ function ContactUs() {
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Email Id</Form.Label>
-        <Form.Control type="email" placeholder="Enter Your Email Address" />
+        <Form.Control type="email" placeholder=" Email Address" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Mobile Number</Form.Label>
-        <Form.Control type="phone" placeholder="Enter Your Mobile Number" />
+        <Form.Control type="phone" placeholder=" Mobile Number" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Car Name With Model</Form.Label>
-        <Form.Control type="password" placeholder="Enter your Complainted Car Name" />
-        <Form.Text className="text-muted">
-          Please Specify Your Car Model NO and Year
+        <Form.Label>Car Model</Form.Label>
+        <Form.Control type="password" placeholder=" Car Name" />
+        <Form.Text className="form-text">
+          Please Specify Your Car Model
         </Form.Text>
       </Form.Group>
       <Form.Select aria-label="Default select example">
@@ -41,10 +41,6 @@ function ContactUs() {
         Submit
       </Button>
     </Form>
-    </div>
-    <div className='find'>
-    <h2>ContactUs</h2>
-
     </div>
  </div>
     </>

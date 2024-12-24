@@ -5,8 +5,9 @@ import './Services.css'
 const Services = () => {
   return (
     <>
+    <h2 className='services_headings'>Popular Services</h2>
         <div>
-            <h2 className='services_headings'>Popular Services</h2>
+            
     </div>
     <div className='popular_services'>
         <div >
