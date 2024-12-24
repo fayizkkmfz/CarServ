@@ -6,7 +6,7 @@ function ContactUs() {
   return (
     <>
       
- <div className='d-flex'>
+ <div className='contact-page'>
 
  <div className='contact_form'>
         <Form>
@@ -37,10 +37,7 @@ function ContactUs() {
       <option value="3">Clutch And Bumpers</option>
       <option value="4">Other Maintenance</option>
     </Form.Select>
-      <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
-      </Form.Group>
-      <Button variant="primary" type="submit">
+      <Button className='submit-btn' variant="primary" type="submit">
         Submit
       </Button>
     </Form>

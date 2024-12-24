@@ -1,6 +1,5 @@
 import React from 'react'
 import './find.css'
-import { FaLocationCrosshairs } from "react-icons/fa6"
 
 
 function Find() {

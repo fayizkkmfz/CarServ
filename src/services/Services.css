@@ -2,10 +2,6 @@
     display: flex;
     
 }
-.service_card{
-    height: 160px;
-    width: 18rem;
-}
 .home_headings{
     text-align: start;
     color:darkmagenta;
@@ -17,6 +13,8 @@
     font-weight: 700;
 }
 .services-card{
-    padding: 3px;
+    padding: 1px;
     margin: 30px;
+    background-color: black;
+    box-shadow: 10px 10px;
 }
