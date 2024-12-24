@@ -7,9 +7,10 @@ function Find() {
   return (
     <>   
  <div className='map'>
+    <div className="searchbar">
     <input className='input' type="text" placeholder='Enter You Location'/>
-    <FaLocationCrosshairs /> 
-    <button>Next</button>
+    <button className='go-btn'>Go</button>
+    </div>
 </div>
    
     </>

@@ -10,3 +10,13 @@
     text-align: start;
     color:darkmagenta;
 }
+.services_headings{
+    margin: auto;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.services-card{
+    padding: 3px;
+    margin: 30px;
+}

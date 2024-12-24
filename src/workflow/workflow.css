@@ -2,8 +2,36 @@
     display: flex;
     margin: auto;
     justify-content: center;
+    padding: 15px;
     
 }
 .folw-text{
     margin: 0px 50px 0px 80px;
+    width: 430px;
+    
+}
+.folw-text h4{
+    font-weight: 600;
+}
+.flow-head{
+    padding-top: 60px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.shape{
+    width: 35px;
+    height: 30px;
+    background-color: lightgrey;
+    border-radius: 2px;
+
+}
+.mech-icon{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(236, 174, 174);
+}
+.flow-page{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(240, 248, 255, 0.699);
 }

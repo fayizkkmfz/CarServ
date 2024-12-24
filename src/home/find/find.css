@@ -1,14 +1,42 @@
 
 .map{
     background-image: url("https://miro.medium.com/v2/resize:fit:1400/1*qYUvh-EtES8dtgKiBRiLsA.png");
-    width: 100%;
+    width: 90%;
     height: 350px;
+    margin: auto;
+    margin-top: 15px;
     
 }
+.searchbar{
+   
+}
+.emplom{
+    position: absolute;
+    top: 0;
+}
+
 .input{
     margin-top: 150px;
-    width: 50%;
+    width: 30%;
     height: 50px;
     border-radius: 5px;
-    border: 1px solid red;
+    border: 1px solid rgb(84, 161, 11);
+    
+}
+.inputbar{
+    position: relative;
+
+}
+.go-btn{
+    border-radius: 50%;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+.go-btn:hover{
+    background-color: green;
 }

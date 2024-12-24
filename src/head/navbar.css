@@ -1,0 +1,32 @@
+.navbar{
+    border: 1px solid lightgray;
+}
+.navlink{
+    font-size: 25px;
+    font-weight: 800;
+}
+.nav-dropdown{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.head-logo{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: auto ;
+    
+}
+.site-head{
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+    z-index: 30;
+    margin-right: 55px;
+}
+.head-logo img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+}

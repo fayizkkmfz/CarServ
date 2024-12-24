@@ -1,19 +1,23 @@
 import React from 'react'
 import { Button, Container, Form, Nav, NavDropdown, Navbar } from 'react-bootstrap'
 import { } from 'react-router-dom'
-import { GiMechanicGarage } from "react-icons/gi";
+import icon from './car-repair-svgrepo-com.svg'
+import './navbar.css'
 
 const NavigBar = () => {
   return (
     <div>
-        <Navbar bg="light" data-bs-theme="light">
+        <Navbar className='navbar' bg="light" data-bs-theme="light">
         <Container>
           
-          <Navbar.Brand  href="#home"><GiMechanicGarage />CarServ</Navbar.Brand>
+          <Navbar.Brand  href="/"><div className="head-logo">
+                <h2 className='site-head'>CarServe</h2>
+                <img src={icon} alt="" />
+            </div></Navbar.Brand>
           <Nav className="ms-auto ">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Services</Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
+            <Nav.Link className='navlink' href="#home">Home</Nav.Link>
+            <Nav.Link className='navlink' href="#features">Services</Nav.Link>
+            <Nav.Link className='navlink' href="#pricing">About</Nav.Link>
           </Nav>
           
           <Form className="d-flex">
@@ -25,7 +29,7 @@ const NavigBar = () => {
             />
             <Button variant="outline-success">Search</Button>
           </Form>
-          <NavDropdown title="Connect" id="navbarScrollingDropdown">
+          <NavDropdown className='nav-dropdown' title="acount" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Login</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Signup
