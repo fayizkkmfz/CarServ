@@ -34,7 +34,7 @@ const NavigBar = () => {
             </div>
             </Navbar.Brand>
             
-            <Container className='container is-active'>
+            <Container className='container'>
           <Nav className="nav">
             <Nav.Link className='navlink' href="/">Home</Nav.Link>
             <Nav.Link className='navlink' href="/">Services</Nav.Link>

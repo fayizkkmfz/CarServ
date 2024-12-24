@@ -54,10 +54,24 @@
     }
     .navbar .container.is-active{
         display: block;
-        background-color: rgba(140, 197, 199, 0.801);
+        
+ 
+       
     }
-    .nav{
+    .navbar-nav{
         display: block;
+        
+        
+    }
+    .navlink a{
+        margin-bottom: auto;
+    }
+
+    .navlink{
+
+        margin-bottom: auto;
+        font-size: 35px;
+        margin: 25px;
     }
     .navbar{
         display: block;
@@ -72,8 +86,8 @@
     }
     .nav-search{
         display: flex;
-        margin-top: 110px;
-
+        margin-top: 50px;
+        
     }
     .head-logo{
      
